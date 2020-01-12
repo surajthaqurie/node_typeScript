@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
-    
+    "dev": "nodemon scr/app.ts",
+    "build": "tsc -p ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Suraj Chand",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
